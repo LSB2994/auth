@@ -18,8 +18,9 @@ public class EmailService {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setFrom(from);
         message.setTo(to);
-        message.setSubject("Your OTP Code");
+        message.setSubject("L$B7");
         message.setText("Your OTP code is: " + otp);
         mailSender.send(message);
+        System.out.println("OTP email sent to: " + to);
     }
 }

@@ -19,15 +19,24 @@
       <option name="ignoredModules">
         <list>
           <option value="demo" />
+          <option value="demo" />
+          <option value="demo" />
+          <option value="demo" />
         </list>
       </option>
       <option name="ignoredPackages">
         <list>
           <option value="com.google.protobuf:protobuf-java:3.25.3" />
+          <option value="io.springfox:springfox-swagger-ui:3.0.0" />
+          <option value="io.springfox:springfox-swagger2:3.0.0" />
+          <option value="io.github.classgraph:classgraph:4.8.83" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
           <option value="Not exploitable" />
         </list>
       </option>
